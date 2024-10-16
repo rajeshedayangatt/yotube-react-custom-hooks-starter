@@ -1,6 +1,6 @@
-function App() {
-  const [theme, toggleTheme] = useTheme();
+import "./App.css";
 
+function App() {
   return (
     <div className="wrapper">
       <h1>React Custom Hooks Tutorial</h1>
